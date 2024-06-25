@@ -1,0 +1,136 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFEEF5;
+    color: #5A3E42;
+    text-align: center;
+}
+
+#title {
+    color: #3E5650;
+}
+
+.header {
+    background-color: #C46D8D;
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.header img {
+    width: 80px;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #5A3E42;
+    margin-bottom: 20px;
+}
+
+.main-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.button {
+    display: block;
+    background-color: #F8B7C2;
+    color: #3E5650;
+    padding: 30px;
+    margin: 40px auto;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: background-color 0.3s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button:hover {
+    background-color: #e09da6;
+}
+
+.content {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.content h2 {
+    text-align: center;
+    color: #3E5650;
+    font-size: 30px;
+}
+
+.content h3 {
+    text-align: center;
+    font-size: 25px;
+}
+.content p {
+    font-size: 22px;
+    line-height: 1.6;
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+.family-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.family-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+
+}
+
+.signature {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footer-logo {
+    width: 80px;
+    margin-top: 20px;
+}
+
+.fotter-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .button {
+        width: 77%;
+        font-size: 14px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+    .header img {
+        width: 80px;
+    }
+
+    .footer-logo {
+        width: 80px;   
+    }
+}

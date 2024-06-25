@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #5A3E42;
+    background-color: #FFEEF5;
+    text-align: center;
+}
+
+.header {
+    background-color: #C46D8D;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    width: 100px;
+}
+
+nav {
+    background-color: #C46D8D;
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    position: relative;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: #3E5650;
+    background-color:#FFDDC8 ;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section {
+    /* background-color: #E6A6BD; */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.section-description {
+    width: 60%;
+}
+
+.section-img {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-img img {
+    width: 300px;
+}
+
+.section img {
+    width: 300px;
+    max-width: 500px;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.582);
+}
+
+h2 {
+    color: #3E5650;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+p {
+    margin: 10px 0;
+    text-align: left;
+    font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+    .section {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .section-description {
+        width: 100%;
+    }
+
+    .section-description h2 {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .back-button button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .header img {
+        width: 80px;
+    }
+
+    .section {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#FFEEF5;
+}
+
+.header {
+    background-color: #C46D8D;
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.header img {
+    width: 80px;
+}
+
+nav {
+    background-color: #C46D8D;
+    border: none;
+    padding: 5px 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    position: relative;
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: #3E5650;
+    background-color:#FFDDC8 ;
+    border-radius: 5px;
+}
+
+.container{
+    padding: 10px;
+}
+
+.titulo-site{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-site a{
+    text-align: center;
+    background-color: #F8B7C2;
+    color: white;
+    border-radius: 30px;
+    font-size: 29px;
+    padding: 5px 10px 5px 10px;
+    margin: 3px;
+}
+
+.main-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.main-banner img{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+}
+
+.sub-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sub-title a{
+    color: grey;
+    font-size: 35px;
+}
+
+@media (max-width: 950px) {
+    .content-area{
+        margin-left: 0px !important;
+    }
+}
+
+.content-area{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 15px;
+    margin-left: 120px;
+}
+
+.elipse-content{
+    height: 80px;
+    padding-top: 20px;
+    padding-right: 8px;
+}
+
+.txt-content-area{
+    display: block;
+}
+
+.title-content{
+    font-size: 28px;
+    text-align: left;
+    font-family: math;
+}
+
+.txt-content{
+    font-size: 18px;
+    font-family: system-ui;
+}
+
+.div-texto{
+    padding: 10px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #FFEEF5;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: -webkit-fill-available;
+    bottom: 0;
+    align-items: center;
+}
+
+.footer img {
+    width: 50px;
+}
+
+body::after {
+    content: "";
+    display: block;
+    height: 50px; /* Ajuste conforme a altura do seu footer */
+}
